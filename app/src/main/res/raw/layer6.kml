@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>초경량비행장치 전용공역(비행가능)</name>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-009D57-nodesc-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-009D57-nodesc-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-009D57-2000-76-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c579d00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-009D57-2000-76-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c579d00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-009D57-2000-76">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-009D57-2000-76-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-009D57-2000-76-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-009D57-2000-76-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c579d00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-009D57-2000-76-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c579d00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-009D57-2000-76-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-009D57-2000-76-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-009D57-2000-76-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>구성산 반경 1.8Km</name>
+      <description>전라북도 김제시 금산면 삼봉리 124-1</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          127.0075,35.739167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>약산 반경 0.7Km</name>
+      <description>대구광역시 달성군 논공읍 하리 757</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          128.417222,35.739167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>봉화산 반경 4Km</name>
+      <description>울산광역시 울주군 상북면 궁근정리 산125-2</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          129.092222,35.625278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>덕두산 반경 4.5Km</name>
+      <description>전라북도 남원시 운봉읍 공안리 519-1</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          127.5325,35.411389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>금산 반경 2.1Km</name>
+      <description>경상남도 남해군 상주면 상주리 산270-14</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          127.981111,34.736389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>홍산 반경 1.2Km</name>
+      <description>전라북도 전주시 완산구 상림동 23-3</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          127.081111,35.828056,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>고창 반경 4Km</name>
+      <description>전라남도 장성군 북일면 문암리 산236</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          126.731389,35.386389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>성화대 반경 5.4Km</name>
+      <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          126.516944,34.699167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>방장산 반경 3Km</name>
+      <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          126.738056,35.449444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>고흥 반경 5.4Km</name>
+      <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          127.205833,34.611111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>담양 반경 5.6Km</name>
+      <description>전라남도 담양군 금성면 석현리 590-14</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          127.03,35.341667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>구좌 반경 2.8Km</name>
+      <description>제주특별자치도 제주시 구좌읍 세화리 산6</description>
+      <styleUrl>#icon-503-009D57</styleUrl>
+      <Point>
+        <coordinates>
+          126.822778,33.478056,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>미악산 반경 1.2Km</name>
+      <styleUrl>#icon-503-009D57-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          126.554444,33.3,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>양평</name>
+      <styleUrl>#poly-009D57-2000-76-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              127.383333,37.502778,0
+              127.383333,37.45,0
+              127.533333,37.45,0
+              127.533333,37.502778,0
+              127.383333,37.502778,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>공주</name>
+      <description>초경량비행장치 전용 공역</description>
+      <styleUrl>#poly-009D57-2000-76</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              126.904722,36.528056,0
+              126.9075,36.468056,0
+              127.098056,36.434444,0
+              127.120278,36.500556,0
+              126.962778,36.5125,0
+              126.937222,36.540278,0
+              126.904722,36.528056,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>시화</name>
+      <description>초경량비행장치 전용 공역</description>
+      <styleUrl>#poly-009D57-2000-76</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              126.555278,37.237222,0
+              126.561667,37.212222,0
+              126.674722,37.2125,0
+              126.774444,37.220833,0
+              126.833333,37.241667,0
+              126.833333,37.29,0
+              126.704167,37.2975,0
+              126.555278,37.237222,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>장암산</name>
+      <description>초경량비행장치 전용 공역</description>
+      <styleUrl>#poly-009D57-2000-76</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              128.391944,37.369722,0
+              128.436111,37.364722,0
+              128.469444,37.402778,0
+              128.405278,37.443889,0
+              128.391944,37.369722,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>하동</name>
+      <description>초경량비행장치 전용 공역</description>
+      <styleUrl>#poly-009D57-2000-76</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              127.723333,34.987778,0
+              127.794167,34.9875,0
+              127.794722,35.029167,0
+              127.723611,35.029722,0
+              127.723333,34.987778,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

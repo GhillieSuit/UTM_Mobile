@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>RC 비행장</name>
+    <Style id="icon-1417-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1417-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1417">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1417-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1417-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1417-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1417-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1417-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1417-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1417-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>탄천 RC비행장</name>
+      <description>경기도 성남시 분당구 수내동 45</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          127.115577,37.3849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>가양대교 북단 RC 비행장</name>
+      <description>경기 고양시 덕양구 덕은동 520-26 (서울 P-73 공역 비행통제 지역으로서 허가를 받은 후 비행)</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.8584,37.5783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>미사리 RC비행장</name>
+      <description>경기도 하남시 미사동 57-2</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          127.2158,37.5583,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>전곡항 RC비행장</name>
+      <description>경기도 화성시 서신면 전곡리 전곡항 교차로</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.6563,37.1907,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>광나루 RC비행장</name>
+      <description>서울특별시 강동구 천호동 351-1 (한강시민공원광나루지구4주차장)</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          127.1194,37.5473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>계양 경기장 RC비행장</name>
+      <description>인천광역시 계양구 서운동 111 (양궁훈련이 있을 경우 비행을 할 수 없습니다)</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.7482,37.5334,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>탄천 유수지 RC비행장</name>
+      <description>서울특별시 송파구 가락동 508</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          127.1003,37.4969,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>포동 RC비행장</name>
+      <description>경기도 시흥시 방산동 779-63</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.7595,37.4023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>신청평대교 RC비행장</name>
+      <description>경기도 가평군 청평면 대성리 산2-1</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          127.4066,37.7206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>용수교 RC비행장</name>
+      <description>경기도 화성시 정남면 발산리 16-1</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.995,37.1682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>광주 하늘사랑 무선모형 비행클럽 RC비행장</name>
+      <description>광주광역시 북구 지야동 682</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.872566,35.234922,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>광명역 RC비행장</name>
+      <description>경기도 안양시 만안구 석수동 안양석수스마트타운</description>
+      <styleUrl>#icon-1417</styleUrl>
+      <Point>
+        <coordinates>
+          126.891268,37.419289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>신정교 RC 비행장</name>
+      <styleUrl>#icon-1417-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          126.8775845,37.5170106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

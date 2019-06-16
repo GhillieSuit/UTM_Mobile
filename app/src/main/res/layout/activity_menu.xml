@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity" >
+
+    <CheckBox
+        android:id="@+id/chkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="비행금지구역" />
+
+    <CheckBox
+        android:id="@+id/chkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="비행제한구역" />
+
+    <CheckBox
+        android:id="@+id/chkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="공항" />
+
+    <CheckBox
+        android:id="@+id/chkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="비행장" />
+
+    <CheckBox
+        android:id="@+id/chkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="RC 비행장" />
+
+    <CheckBox
+        android:id="@+id/chkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="초경량비행장치 전용공역 (비행가능)" />
+
+    <Button
+        android:id="@+id/btnOpt2"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAAAA"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:text="OK" />
+
+</RelativeLayout>
